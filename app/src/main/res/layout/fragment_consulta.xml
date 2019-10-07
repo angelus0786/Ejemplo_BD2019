@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/formularios"
+    tools:context=".fragmentos.ConsultaFragment">
+
+    <TextView
+        android:id="@+id/tvtitulo"
+        android:text="@string/tv_titulo2"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etid"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_id"
+            android:inputType="number"></EditText>
+        <Button
+            android:id="@+id/btbuscar"
+            android:text="@string/btbuscar"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_nombre"
+        android:inputType="textPersonName|textAutoComplete"></EditText>
+
+    <EditText
+        android:id="@+id/etapellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_apellidos"
+        android:inputType="textPersonName|text|textAutoComplete"></EditText>
+
+    <EditText
+        android:id="@+id/etedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_edad"
+        android:inputType="number"></EditText>
+
+    <EditText
+        android:id="@+id/etfecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_fecha"
+        android:inputType="datetime"></EditText>
+    <Button
+        android:id="@+id/btmodificar"
+        android:text="@string/btmodificar"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

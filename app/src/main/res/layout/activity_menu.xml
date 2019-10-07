@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_gravity="center_horizontal"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/tvtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        style="@style/botones_menu"
+        android:id="@+id/btregistrar"
+        android:layout_width="133dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/registro"
+        >
+
+    </Button>
+
+    <Button
+        style="@style/botones_menu"
+        android:id="@+id/btconsultar"
+        android:layout_width="134dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/consultar"
+        >
+
+    </Button>
+
+    <Button
+        style="@style/botones_menu"
+        android:id="@+id/btlistar"
+        android:layout_width="135dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/listarjpg"
+        >
+
+    </Button>
+
+</LinearLayout>

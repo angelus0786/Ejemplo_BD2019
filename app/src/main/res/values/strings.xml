@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ejemplo_BD2019</string>
+    <string name="action_settings">Settings</string>
+    <string name="btregistrar">REGISTRAR</string>
+    <string name="tvtitulo">Ejemplo BD</string>
+    <string name="btconsultar">Consultar</string>
+    <string name="btlistar">LISTAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_titulo">Registro</string>
+    <string name="et_nombre">Nombre</string>
+    <string name="et_apellidos">Apellidos</string>
+    <string name="et_edad">Edad</string>
+    <string name="et_fecha">Fecha de Nacimiento</string>
+    <string name="btguardar">GUARDAR</string>
+    <string name="tv_titulo2">Consultar</string>
+    <string name="et_id">Id</string>
+    <string name="btbuscar">Buscar</string>
+    <string name="btmodificar">Modificar</string>
+    <string name="tv_lista">Personas</string>
+    <string name="tv_nombre">nombre</string>
+</resources>
